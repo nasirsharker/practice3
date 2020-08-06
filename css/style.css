@@ -1,0 +1,137 @@
+.header{
+	display: block;	
+}
+.navbarr{
+    background-color: #fc8a6c;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding:12px;
+    min-height: 20px;
+    overflow: hidden; 
+    width: 100%;
+    overflow: hidden;
+}
+.left-side-logo{
+	float:left;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+.right-side-manu {
+  overflow: hidden;
+  padding-right:70px;
+  float: right;
+}
+
+.right-side-manu a {
+  float: left;
+  display: block;
+  color: #aa3700;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.right-side-manu a:hover {
+  background: #ffa0126e;
+  color: #600c0c;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position:relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.blog{overflow: hidden;
+
+}
+.post-container{
+	background-color: #ffffff;
+	width: 65%;
+	height: 800px;
+	float: left;
+	overflow: hidden;
+}
+
+.row{}
+.column {
+  padding:22px;
+  float: left;
+
+}
+.card:hover{
+	background-color: #ffffff;
+	box-shadow: 10px 10px #e6e6e6;
+}
+.sidebar{
+	background-color: #f2f2f2;
+	width: 35%;
+	height: 800px;
+	float: left;
+}
+/*facebook page side bar*/ 
+.card1{
+	padding: 10px;
+}
+.card2{}
+
+.catagories{
+	padding: 10px;
+}
+.cat-text{
+	padding: 5px;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #fc8a6c;
+   color: white;
+   text-align: center;
+}
